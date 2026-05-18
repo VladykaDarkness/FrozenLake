@@ -24,6 +24,7 @@
 1. Склонируйте репозиторий:
 ```bash
 git clone https://github.com/VladykaDarkness/FrozenLake.git
+```
 2. Запустите файлы:
 ```bash
 python algorithms_4x4.py
