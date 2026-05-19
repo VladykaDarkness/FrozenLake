@@ -138,7 +138,7 @@ plt.plot(episodes_x, exp_sarsa_win_rates, label="Expected SARSA", color="green",
 plt.plot(episodes_x, double_q_win_rates, label="Double Q-Learning", color="purple", linewidth=2)
 plt.plot(episodes_x, mc_win_rates, label="Monte Carlo", color="orange", linewidth=2, linestyle='--')
 
-plt.title("Сравнение алгоритмов обучения в стохастической среде FrozenLake 4×4)")
+plt.title("Сравнение алгоритмов обучения в стохастической среде FrozenLake 4×4")
 plt.xlabel("Количество эпизодов")
 plt.ylabel("Процент побед (за последние 100 попыток)")
 plt.legend()
